@@ -1,0 +1,128 @@
+.uppernavbar-container{
+    height:10vh;
+}
+
+.one,.two{
+    width:50%;
+    /* background-color:pink; */
+    
+}
+
+
+.cardtwo-container,.cardone-container{
+    /* background-color: purple; */
+    /* height:60vh;  */
+    text-align: center;
+    padding-top: 40px;
+    border-radius:15%;
+    border:2px solid #353a40;
+    margin-left:25%;
+    box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.1), 0 12px 20px -12px rgba(0, 0, 0, 0.1);
+    width:50%;
+    padding:40px;
+}
+
+img{
+    width:60%;
+    margin-bottom: 30px;
+}
+
+.bottom-container{
+    margin-top:6%;
+    display: flex;
+    flex-direction:row;
+    /* background-color: #f3f7f8; */
+
+}
+
+@media screen and (min-width:995px) and (max-width:1290px){
+
+    .cardtwo-container,.cardone-container{
+        width:60%;
+    margin-left:20%;
+
+    }
+    .bottom-container{
+        margin-top:10%;
+    }
+
+}
+
+@media screen and (min-width:797px) and (max-width:994px){
+
+    .cardtwo-container,.cardone-container{
+        width:70%;
+    margin-left:15%;
+
+    }
+
+    .bottom-container{
+        margin-top:10%;
+    }
+    .one,.two{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:796px) {
+
+    .cardtwo-container,.cardone-container{
+        width:60%;
+    margin-left:20%;
+    margin-bottom: 40px;
+
+    }
+
+    .bottom-container{
+        margin-top:27%;
+        display: flex;
+        flex-direction:column;
+    }
+    .one,.two{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:475px) and (max-width:576px) {
+
+    .cardtwo-container,.cardone-container{
+    width:70%;
+    margin-left:15%;
+    margin-bottom: 40px;
+  
+
+    }
+
+    .bottom-container{
+        margin-top:27%;
+        display: flex;
+        flex-direction:column;
+
+    }
+
+    .one,.two{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:475px) {
+
+    .cardtwo-container,.cardone-container{
+    width:80%;
+    margin-left:10%;
+    margin-bottom: 40px;
+  
+
+    }
+
+    .bottom-container{
+        margin-top:27%;
+        display: flex;
+        flex-direction:column;
+
+    }
+
+    .one,.two{
+        width: 100%;
+    }
+}

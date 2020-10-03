@@ -1,0 +1,23 @@
+{
+  
+    "card1":{
+        "image1":"woman.svg",
+        "name1":"Surekha",
+        "profession1":"student",
+        "rollnum1":"18B91A0438",
+        "mailid1":"surekha.dasari63@gmail.com",
+        "college1":"SRKR Engineering College",
+        "staticpagelink":"Go to static page" 
+    },
+    "card2":{
+        "image2":"woman.svg",
+        "name2":"Swapna",
+        "profession2":"employee",
+        "rollnum2":"18B91A0483",
+        "mailid2":"swapna.dasari63@gmail.com",
+        "college2":"AU Engineering College",
+        "dynamicpagelink":"Go to dynamic page" 
+    }
+}
+
+
